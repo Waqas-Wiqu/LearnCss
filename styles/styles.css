@@ -5,8 +5,33 @@
 }
 
 .hero-banner{
-    background-color: blueviolet;
-    height: 100vh;
+    background-image: url(/images/img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
     width: 100%;
     overflow: hidden;
+}
+.text-content{
+    background-color: antiquewhite;
+    color: blueviolet;
+    padding: 10px;
+}
+footer {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    color: red;
+    padding: 10px;
+    margin: 5px;
+    background-color: bisque;
+}
+nav {
+    margin: 5px;
+    padding: 2px;
 }
