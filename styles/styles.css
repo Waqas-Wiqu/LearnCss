@@ -1,37 +1,121 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.hero-banner{
+.hero-banner {
     background-image: url(/images/img2.jpg);
-    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     color: aliceblue;
     padding: 20px;
     font-size: 20px;
     font-weight: bold;
     width: 100%;
+    z-index: 1;
+    height: 50vh;
     overflow: hidden;
 }
-.text-content{
+
+.hero-banner2 {
+    background-image: url(/images//giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    z-index: 1;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.other-image {
+    z-index: 10;
+    background-image: url(/images/tower.png);
+    height: 100%;
+    background-position-y: bottom;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.text-content {
     background-color: antiquewhite;
     color: blueviolet;
     padding: 10px;
 }
+
 footer {
     font-size: larger;
     font-weight: bold;
     text-align: center;
 }
-button{
+
+button {
     color: red;
     padding: 10px;
     margin: 5px;
     background-color: bisque;
 }
+
 nav {
     margin: 5px;
     padding: 2px;
+}
+
+.bg-examples {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.example-1 {
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('../images/flower.jpg');
+}
+
+.example-2 {
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('../images/flower2.jpg');
+}
+
+.example-one {
+    height: 10vh;
+    width: 50%;
+    overflow: hidden;
+    background-image: url('../images/giphy.gif');
+}
+
+.example-two {
+    height: 10vh;
+    width: 50%;
+    overflow: hidden;
+    background-image: url('../images/img.jpg');
+}
+
+.example-three {
+    height: 10vh;
+    width: 50%;
+    overflow: hidden;
+    background-image: url('../images/img2.jpg');
+}
+
+.example-four {
+    height: 10vh;
+    width: 50%;
+    overflow: hidden;
+    background-image: url('../images/tower.png');
 }
